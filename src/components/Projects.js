@@ -52,7 +52,7 @@ const Project = styled.div`
     }
 
     svg {
-       margin-right: 5px;
+      margin-right: 5px;
       color: ${({ theme }) => theme.colors.text}; /* or any other visible color */
       font-size: 1.5em; /* Adjust the size as needed */
     }
@@ -68,10 +68,12 @@ function Projects() {
       <Project>
         <h3>Parking Management System</h3>
         <ul>
-          <li>Built a parking web app with React and Node.js for optimized performance and seamless functionality.
-        </li>
           <li>
-            <strong>Technologies:</strong> React HTML, CSS, JavaScript, Node.js, MongoDB.
+            Built a parking web app with React and Node.js for optimized performance
+            and seamless functionality.
+          </li>
+          <li>
+            <strong>Technologies:</strong> React, HTML, CSS, JavaScript, Node.js, MongoDB.
           </li>
         </ul>
         <div className="project-links">
@@ -93,25 +95,38 @@ function Projects() {
           <em>2022</em>
         </p>
         <ul>
-          <li>Designed and developed a recycling app with a reward system using React, Node.js, and MongoDB.</li>
           <li>
-            Integrated IoT-enabled recycling bins for real-time action verification, improving system reliability.
+            Designed and developed a recycling app with a reward system using React,
+            Node.js, and MongoDB.
+          </li>
+          <li>
+            Integrated IoT-enabled recycling bins for real-time action verification,
+            improving system reliability.
           </li>
         </ul>
         <div className="project-links">
+          {/* Fixed: wrap FaGithub and text in an <a> tag */}
+          <a
+            href="https://github.com/YOUR_USERNAME/RECYCLING-REWARDS-APP"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-link"
+          >
             <FaGithub /> View Repository
           </a>
         </div>
       </Project>
-      { /* project 3 */}
+
+      {/* Project 3 */}
       <Project>
         <h3>Cost Manager Tool</h3>
         <ul>
-          <li>Engineered a cost management system integrating Java with mySQL databases, ensuring effcient data handling.</li>
-          
-         
           <li>
-            <strong>Technologies:</strong> 
+            Engineered a cost management system integrating Java with MySQL databases,
+            ensuring efficient data handling.
+          </li>
+          <li>
+            <strong>Technologies:</strong> Java, MySQL
           </li>
         </ul>
         <div className="project-links">
@@ -126,15 +141,14 @@ function Projects() {
         </div>
       </Project>
 
-
-
-              { /* project 4 */}
+      {/* Project 4 */}
       <Project>
         <h3>Smart Recycling</h3>
         <ul>
-          <li>enabling real-time recycling data processing.</li>
+          <li>Enabling real-time recycling data processing.</li>
           <li>
-            <strong>Technologies:</strong> Python (FastAPI), JavaScript (React, Fabric.js), SQLAlchemy, CSS, AsyncIO
+            <strong>Technologies:</strong> Python (FastAPI), JavaScript (React, Fabric.js),
+            SQLAlchemy, CSS, AsyncIO
           </li>
         </ul>
         <div className="project-links">
@@ -148,7 +162,6 @@ function Projects() {
           </a>
         </div>
       </Project>
-              
     </ProjectsSection>
   );
 }
