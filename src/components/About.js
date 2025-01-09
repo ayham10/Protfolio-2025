@@ -37,11 +37,9 @@ function About() {
       <AboutContent>
         <Title>About Me</Title>
         <Paragraph>
-        Motivated Software Engineer specializing in full-stack development with
-        expertise in Angular, React, Node.js, and database optimization. Skilled in
-        designing scalable applications, improving operational processes, and
-        collaborating in agile environments to deliver innovative solutions.
-
+        Full-stack Software Engineer skilled in Angular, React, Node.js, and database optimization. 
+        Experienced in developing scalable applications, streamlining operations, and delivering 
+        innovative solutions in agile environments.
         </Paragraph>
       </AboutContent>
     </AboutSection>
