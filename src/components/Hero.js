@@ -58,10 +58,10 @@ function Hero() {
   return (
     <HeroSection id="hero">
       <Title initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-        Hi, I'm <span>Amir Khalifa</span>
+        Hi, I'm <span>Ayham Hussien</span>
       </Title>
       <Subtitle initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }}>
-        Software Engineering Student specializing in Cybersecurity and Cloud Development.
+        Junior Software Engineer specializing in Full-Stack and Cloud Development.
       </Subtitle>
       <CallToAction href="#projects" whileHover={{ scale: 1.05 }}>
         View My Work
