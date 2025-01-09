@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import logo from '../assets/aklogo.jpg';
+
 
 const Nav = styled.nav`
   position: fixed;
@@ -21,15 +21,7 @@ const Nav = styled.nav`
   }
 `;
 
-const Logo = styled.img`
-  height: 50px; /* Adjust the height as needed */
-  width: auto;
-  cursor: pointer;
 
-  @media (max-width: 768px) {
-    margin-bottom: 10px;
-  }
-`;
 
 const NavLinks = styled.div`
   display: flex;
@@ -87,9 +79,7 @@ const ThemeToggleButton = styled.button`
 function Header({ toggleTheme, isDarkMode }) {
   return (
     <Nav>
-      <a href="#hero">
-        <Logo src={logo} alt="Amir Khalifa Logo" />
-      </a>
+      /* logo here */
       <NavLinks>
         <NavLink href="#hero">Home</NavLink>
         <NavLink href="#about">About</NavLink>
