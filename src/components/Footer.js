@@ -13,7 +13,7 @@ const FooterContainer = styled.footer`
 function Footer() {
   return (
     <FooterContainer>
-      <p>&copy; {new Date().getFullYear()} Amir Khalifa</p>
+      <p>&copy; {new Date().getFullYear()} Ayham Hussien</p>
     </FooterContainer>
   );
 }
