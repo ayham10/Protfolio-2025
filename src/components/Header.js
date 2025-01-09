@@ -79,7 +79,7 @@ const ThemeToggleButton = styled.button`
 function Header({ toggleTheme, isDarkMode }) {
   return (
     <Nav>
-      /* logo here */
+    {/* logo here */}
       <NavLinks>
         <NavLink href="#hero">Home</NavLink>
         <NavLink href="#about">About</NavLink>
