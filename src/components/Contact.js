@@ -34,21 +34,21 @@ function Contact() {
             <h2>Contact Me</h2>
             <ContactInfo>
                 <FontAwesomeIcon icon={faEnvelope} /> Email:{' '}
-                <a href="mailto:amir.kh28@hotmail.com">amir.kh28@hotmail.com</a>
+                <a href="mailto:ayham.huss@gmail.com">ayham.huss@gmail.com</a>
             </ContactInfo>
             <ContactInfo>
-                <FontAwesomeIcon icon={faPhone} /> Phone: <a href="tel:+9720546773232">0546773232</a>
+                <FontAwesomeIcon icon={faPhone} /> Phone: <a href="tel:+9720547997273">0547997273</a>
             </ContactInfo>
             <ContactInfo>
                 <FontAwesomeIcon icon={faLinkedin} /> LinkedIn:{' '}
-                <a href="https://www.linkedin.com/in/amir-khalifa-598a76239" target="_blank" rel="noopener noreferrer">
-                    amir-khalifa-598a76239
+                <a href="https://www.linkedin.com/in/ayham-hussien-190470229/" target="_blank" rel="noopener noreferrer">
+                    ayham-hussien-190470229
                 </a>
             </ContactInfo>
             <ContactInfo>
                 <FontAwesomeIcon icon={faGithub} /> GitHub:{' '}
-                <a href="https://github.com/amirkhalifa285" target="_blank" rel="noopener noreferrer">
-                    amirkhalifa285
+                <a href="https://github.com/ayham10" target="_blank" rel="noopener noreferrer">
+                    ayham10
                 </a>
             </ContactInfo>
         </ContactSection>
