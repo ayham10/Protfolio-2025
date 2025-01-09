@@ -57,6 +57,7 @@ function Skills() {
         <SkillCategory>
           <h3>Languages & Scripting</h3>
           <ul>
+            <li>C#</li>
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
@@ -81,6 +82,7 @@ function Skills() {
         <SkillCategory>
           <h3>Frameworks & Libraries</h3>
           <ul>
+            <li>Angular.js</li>
             <li>React.js</li>
           </ul>
         </SkillCategory>
